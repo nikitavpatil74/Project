@@ -35,6 +35,10 @@ Access App
 •	JSON API: http:// 20.185.252.188:8081/info
 •	Web UI: http:// 20.185.252.188:8081/ui
 
+![Screenshot 2025-06-09 060423](https://github.com/user-attachments/assets/9f40c7f5-7f08-485f-af3b-a10f953a3e16)
+
+
+
 ## On Microsoft Azure create Resource group
 Step 1: 1.	In the Azure portal, click "Create a resource".
         2.	Search for Resource Group → Click Create.
