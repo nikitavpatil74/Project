@@ -33,7 +33,7 @@ resource "azurerm_storage_account" "bucket" {
   min_tls_version          = "TLS1_2"
 }
 
-# Create a Blob Container (like a bucket)
+# Create a Blob Container 
 resource "azurerm_storage_container" "appdata" {
   name                  = "myapp-data"
   storage_account_name  = azurerm_storage_account.bucket.name
