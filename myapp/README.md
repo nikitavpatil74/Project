@@ -36,7 +36,8 @@ Access App
 •	Web UI: http:// 20.185.252.188:8081/ui
 
 ![Screenshot 2025-06-09 060423](https://github.com/user-attachments/assets/9f40c7f5-7f08-485f-af3b-a10f953a3e16)
-
+![Screenshot 2025-06-09 060758](https://github.com/user-attachments/assets/7052fead-9650-4fa2-8fd2-512a0fd46be4)
+![Screenshot 2025-06-09 060837](https://github.com/user-attachments/assets/55674fa8-f01d-4538-a47b-e2f64b0a12de)
 
 
 ## On Microsoft Azure create Resource group
