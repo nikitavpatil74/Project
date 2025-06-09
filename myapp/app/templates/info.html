@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App Info</title>
+</head>
+<body>
+  <h1>Application Info</h1>
+  <ul>
+    <li><strong>Service Name:</strong> {{ data.service_name }}</li>
+    <li><strong>Version:</strong> {{ data.version }}</li>
+    <li><strong>Git SHA:</strong> {{ data.git_commit_sha }}</li>
+    <li><strong>Service Port:</strong> {{ data.environment.service_port }}</li>
+    <li><strong>Log Level:</strong> {{ data.environment.log_level }}</li>
+  </ul>
+</body>
+</html>
