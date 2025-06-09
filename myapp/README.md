@@ -85,6 +85,21 @@ Access App
 •	JSON API: http:// External-ip/info
 •	Web UI: http:// External-ip/ui
 
+## Tech Stack
+Backend: Python, FastAPI
+
+Templates: Jinja2
+
+Containerization: Docker
+
+Cloud: Microsoft Azure (AKS + ACR)
+
+IaC: Terraform
+
+Orchestration: Kubernetes
+
+Package Management: Helm
+
 
 
 
