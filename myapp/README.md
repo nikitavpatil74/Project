@@ -73,6 +73,12 @@ Step 4: kubectl get service
 Access App
 •	JSON API: http:// External-ip/info
 •	Web UI: http:// External-ip/ui
+<img width="871" alt="image" src="https://github.com/user-attachments/assets/aa82211b-2d1a-4998-9467-019428289d16" />
+<img width="954" alt="image" src="https://github.com/user-attachments/assets/c6dbd9f2-8790-44d8-8893-9e5b6ad31a8b" />
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/365e43a4-3002-4202-80be-0c453c38b9b0" />
+
+
+
 
 ## Infrastructure as code with Terraform
 Step 1: Create main.tf file
