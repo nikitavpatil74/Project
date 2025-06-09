@@ -1,0 +1,21 @@
+replicaCount: 1
+
+image:
+  repository: fastapiregistrynp00819459.azurecr.io/myapp
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+service:
+  type: LoadBalancer
+  port: 80
+  targetPort: 8080
+
+env:
+  GIT_COMMIT_SHA: "abc123"
+  SERVICE_PORT: "8080"
+  LOG_LEVEL: "INFO"
+
+resources: {}
+
+ingress:
+  enabled: false
