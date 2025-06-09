@@ -50,6 +50,8 @@ Step 1: 1.	In the Azure portal, click "Create a resource".
 Step 2:Create Azure Kubernetes Service (AKS)
         1. Go to Kuberenetes Service
         2. Create Kubernetes Cluster
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/97939f21-23b1-49e9-ab41-6c9bd56fccc4" />
+
 
 ## Connect To AKS
 Step 1: az login
