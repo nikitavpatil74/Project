@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-deployment
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ .Release.Name }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Release.Name }}
+    spec:
+      containers:
+      - name: {{ .Release.Name }}
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        imagePullPolicy: {{ .Values.image.pullPolicy }}
+        ports:
+        - containerPort: 8080
+        env:
+        - name: GIT_COMMIT_SHA
+          value: "{{ .Values.env.GIT_COMMIT_SHA }}"
+        - name: SERVICE_PORT
+          value: "{{ .Values.env.SERVICE_PORT }}"
+        - name: LOG_LEVEL
+          value: "{{ .Values.env.LOG_LEVEL }}"
+        volumeMounts:
+        - name: config-secret
+          mountPath: /app/secrets
+          readOnly: true
+      volumes:
+      - name: config-secret
+        secret:
+          secretName: {{ .Release.Name }}-secret
