@@ -80,6 +80,10 @@ Step 2: Initialize & Apply Terraform
 terraform init
 terraform plan
 terraform apply
+![Screenshot 2025-06-09 062203](https://github.com/user-attachments/assets/c3bc9ea4-a5ce-4532-80fc-5ebd8cbe218f)
+![Screenshot 2025-06-09 062232](https://github.com/user-attachments/assets/8bcd20b3-91af-46e4-b1a2-bc3163994a55)
+
+
 
 ## Helm Deployment
 Step 1: Create Chart.yaml and values.yaml
@@ -91,6 +95,12 @@ Step 6: kubectl get svc
 Access App
 •	JSON API: http:// External-ip/info
 •	Web UI: http:// External-ip/ui
+![Screenshot 2025-06-09 055932](https://github.com/user-attachments/assets/527b763f-587b-47e8-bf4b-d60e1563808b)
+![Screenshot (1)](https://github.com/user-attachments/assets/32bebd63-8cfb-4daa-96cc-0f07aa00efd9)
+![Screenshot 2025-06-09 055828](https://github.com/user-attachments/assets/d025f629-3888-408f-9e84-d571d10bd010)
+
+
+
 
 ## Tech Stack
 Backend: Python, FastAPI
