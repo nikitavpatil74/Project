@@ -77,6 +77,19 @@ Access App
 <img width="954" alt="image" src="https://github.com/user-attachments/assets/c6dbd9f2-8790-44d8-8893-9e5b6ad31a8b" />
 <img width="958" alt="image" src="https://github.com/user-attachments/assets/365e43a4-3002-4202-80be-0c453c38b9b0" />
 
+## Kubernetes Cluster Deployment:-
+Step 1: Create deployment.yaml, service.yaml and secret.yaml file
+Step 2: Apply it
+Step 3: Kubectl get pods -w
+Step 4: Kubectl get svc
+Access App
+•	JSON API: http:// External-ip/info
+•	Web UI: http:// External-ip/ui
+![Kubernetes](https://github.com/user-attachments/assets/863949c8-aec7-4104-b17d-53ac543436ae)
+![Screenshot 2025-06-09 063453](https://github.com/user-attachments/assets/2f4ead9e-0f62-421f-9206-511a2424fe0d)
+![Screenshot 2025-06-09 063528](https://github.com/user-attachments/assets/601a25a4-d444-42d6-8f20-608cdab9e81b)
+
+
 
 
 
